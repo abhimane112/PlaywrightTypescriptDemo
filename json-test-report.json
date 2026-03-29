@@ -1,0 +1,152 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\playwright.config.ts",
+    "rootDir": "C:/Users/abhim/Downloads/Playwright Code/Playwright Tutorial/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/abhim/Downloads/Playwright Code/Playwright Tutorial/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "C:/Users/abhim/Downloads/Playwright Code/Playwright Tutorial/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-test-report.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "junit-test-report.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Chapter6\\POST_API_Request_Dynamic.spec.ts",
+      "file": "Chapter6/POST_API_Request_Dynamic.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create POST APi Request using Dynamic",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1347,
+                  "error": {
+                    "message": "SyntaxError: Unexpected token 'I', \"Internal S\"... is not valid JSON",
+                    "stack": "SyntaxError: Unexpected token 'I', \"Internal S\"... is not valid JSON\n    at C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts:20:32",
+                    "location": {
+                      "file": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts",
+                      "column": 32,
+                      "line": 20
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m postApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`/booking`\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(postAPIRequest)})\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m     \u001b[36mconst\u001b[39m jsonapostApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m postApiResponse\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`Post Api Response : `\u001b[39m\u001b[33m+\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mstringify(jsonapostApiResponse\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[35m2\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 22 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts",
+                        "column": 32,
+                        "line": 20
+                      },
+                      "message": "SyntaxError: Unexpected token 'I', \"Internal S\"... is not valid JSON\n\n\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m postApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`/booking`\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(postAPIRequest)})\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m     \u001b[36mconst\u001b[39m jsonapostApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m postApiResponse\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`Post Api Response : `\u001b[39m\u001b[33m+\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mstringify(jsonapostApiResponse\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[35m2\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 22 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts:20:32\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-03-29T07:38:56.275Z",
+                  "annotations": [],
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts",
+                    "column": 32,
+                    "line": 20
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "0f84a21c42815da9d3e7-76e5320596e468dd3764",
+          "file": "Chapter6/POST_API_Request_Dynamic.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-03-29T07:38:54.316Z",
+    "duration": 3363.8370000000577,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

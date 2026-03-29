@@ -1,0 +1,57 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - separator [ref=e3]
+    - iframe [ref=e8]:
+      - generic [ref=f14e2]:
+        - generic [ref=f14e3]:
+          - checkbox "I'm not a robot" [ref=f14e7]
+          - generic [ref=f14e10]: I'm not a robot
+        - generic [ref=f14e11]:
+          - generic [ref=f14e14]: reCAPTCHA
+          - generic [ref=f14e15]:
+            - link "Privacy" [ref=f14e16] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/privacy/
+            - text: "-"
+            - link "Terms" [ref=f14e17] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/terms/
+    - separator [ref=e9]
+    - generic [ref=e10]:
+      - text: About this page
+      - text: Our systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot.
+      - link "Why did this happen?" [ref=e11] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=e12]:
+        - text: "IP address: 2401:4900:1c7e:22f0:b4ca:7c8a:47f9:1716"
+        - text: "Time: 2026-03-25T12:31:30Z"
+        - text: "URL: https://www.google.com/search?q=Javascript+by+testers+talk&sca_esv=b8cd033d34f8d7f3&source=hp&ei=nNXDaYbdKp_F5OUPiKa-8A4&iflsig=AFdpzrgAAAAAacPjrGuQgJW4FW_zHpIh0BqNqJRxQdgS&ved=0ahUKEwiGm9mRh7uTAxWfIrkGHQiTD-4Q4dUDCBY&uact=5&oq=Javascript+by+testers+talk&gs_lp=Egdnd3Mtd2l6IhpKYXZhc2NyaXB0IGJ5IHRlc3RlcnMgdGFsa0jlAVAAWABwAHgAkAEAmAGCAaABggGqAQMwLjG4AQPIAQD4AQGYAgCgAgCYAwCSBwCgB06yBwC4BwDCBwDIBwCACAA&sclient=gws-wiz&sei=n9XDaY_kGuyj5OUP3OO4gQo"
+  - iframe [active] [ref=e16]:
+    - dialog [ref=f17e3]:
+      - generic [ref=f17e4]:
+        - generic [ref=f17e7]:
+          - text: Select all images with
+          - strong [ref=f17e8]: crosswalks
+          - generic [ref=f17e9]: Click verify once there are none left.
+        - table [ref=f17e12]:
+          - rowgroup [ref=f17e13]:
+            - row [ref=f17e14]:
+              - button [ref=f17e15]
+              - button [ref=f17e18]
+              - button [ref=f17e21]
+            - row [ref=f17e24]:
+              - button [ref=f17e25]
+              - button [ref=f17e29]
+              - button [active] [ref=f17e33]
+            - row [ref=f17e36]:
+              - button [ref=f17e37]
+              - button [ref=f17e40]
+              - button [ref=f17e45]
+      - generic [ref=f17e51]:
+        - generic [ref=f17e52]:
+          - button "Get a new challenge" [ref=f17e54] [cursor=pointer]
+          - button "Get an audio challenge" [ref=f17e56] [cursor=pointer]
+          - button "Help" [ref=f17e58] [cursor=pointer]
+        - button "Verify" [ref=f17e60] [cursor=pointer]
+```

@@ -1,0 +1,13 @@
+{
+
+"firstname": "Playwright by Testers Talk",
+"lasttname": "Playwright by Testers Talk",
+"totalprice": 1000,
+"depositpaid": true,
+"bookingdates":{
+    "checkin":"2025-01-15",
+     "checkout":"2025-01-17"
+},
+"additionalneeds": "breakfast"
+
+}

@@ -1,0 +1,78 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+      - link "Accessibility feedback" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Go to Google Home" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjz6NfAv72TAxVCBNsEHRAPKekQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - link:
+            - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=0ahUKEwjz6NfAv72TAxVCBNsEHRAPKekQpYkNCAs
+          - generic [ref=e23]:
+            - combobox "Search" [ref=e26]: Playwright by Testers Talk Playwright by Testers Talk
+            - generic [ref=e27]:
+              - button "Clear" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Search by voice" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Search by image" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Search" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Settings" [ref=e48] [cursor=pointer]
+      - generic [ref=e49]:
+        - button "Google apps" [ref=e51] [cursor=pointer]:
+          - img [ref=e52]
+        - link "Sign in" [ref=e56] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DPlaywright%2Bby%2BTesters%2BTalk%26sca_esv%3D3eb9bc99a534cb7d%26source%3Dhp%26ei%3DCh3FaZkRgJ6x4w-13dO4Cw%26iflsig%3DAFdpzrgAAAAAacUrGnKLidx1PCdUldd3qyrP5fyNNn7O%26ved%3D0ahUKEwiZvueyv72TAxUAT2wGHbXuFLcQ4dUDCBY%26uact%3D5%26oq%3DPlaywright%2Bby%2BTesters%2BTalk%26gs_lp%3DEgdnd3Mtd2l6IhpQbGF5d3JpZ2h0IGJ5IFRlc3RlcnMgVGFsa0jAA1DmAVjmAXABeACQAQCYAV-gAV-qAQExuAEDyAEA-AEBmAIBoAIFqAIKwgIKEC4YAxjqAhiPAcICChAAGAMY6gIYjwGYAwXxBaGnsU8RPfpDkgcBMaAHTrIHALgHAMIHAzItMcgHBIAIAA%26sclient%3Dgws-wiz%26sei%3DDB3FaYyHBcKHxc8P0OSLqAI&ec=futura_srp_og_si_72236_p
+  - generic [ref=e58]:
+    - navigation [ref=e64]:
+      - list [ref=e69]:
+        - listitem [ref=e70]:
+          - link "AI Mode" [ref=e73] [cursor=pointer]:
+            - /url: /search?q=Playwright+by+Testers+Talk&sca_esv=3eb9bc99a534cb7d&udm=50&source=hp&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivbKirXDuh5UVpdpaw-YxGq0aFW8FJx7QFgKAu9Mp8JGui5wyswVm9VUGkWCgmf6W3OV72EBVZ05PW-_XgCmtjeMVjPqckNVp0QMbtTfLOtkUNKakcC-kQOrWtPHdLPzKW-W2pSNG_jUAzklZumd49jFuSeOfQ&aep=1&ntc=1&sa=X&ved=2ahUKEwjz6NfAv72TAxVCBNsEHRAPKekQ2J8OegQIDhAE
+            - generic [ref=e76]: AI Mode
+        - listitem [ref=e77]:
+          - link "All" [disabled] [ref=e78]:
+            - generic [ref=e80]: All
+        - listitem [ref=e81]:
+          - link "Videos" [ref=e82] [cursor=pointer]:
+            - /url: /search?sca_esv=3eb9bc99a534cb7d&udm=7&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivbKirXDuh5UVpdpaw-YxGq0aFW8FJx7QFgKAu9Mp8JGui5wyswVm9VUGkWCgmf6W3OV72EBVZ05PW-_XgCmtjeMVjPqckNVp0QMbtTfLOtkUNKakcC-kQOrWtPHdLPzKW-W2pSNG_jUAzklZumd49jFuSeOfQ&q=Playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjz6NfAv72TAxVCBNsEHRAPKekQtKgLegQIFBAB
+            - generic [ref=e84]: Videos
+        - listitem [ref=e85]:
+          - link "Images" [ref=e86] [cursor=pointer]:
+            - /url: /search?sca_esv=3eb9bc99a534cb7d&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivbKirXDuh5UVpdpaw-YxGq0aFW8FJx7QFgKAu9Mp8JGui5wyswVm9VUGkWCgmf6W3OV72EBVZ05PW-_XgCmtjeMVjPqckNVp0QMbtTfLOtkUNKakcC-kQOrWtPHdLPzKW-W2pSNG_jUAzklZumd49jFuSeOfQ&q=Playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjz6NfAv72TAxVCBNsEHRAPKekQtKgLegQIEhAB
+            - generic [ref=e88]: Images
+        - listitem [ref=e89]:
+          - link "Short videos" [ref=e90] [cursor=pointer]:
+            - /url: /search?sca_esv=3eb9bc99a534cb7d&udm=39&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivbKirXDuh5UVpdpaw-YxGq0aFW8FJx7QFgKAu9Mp8JGui5wyswVm9VUGkWCgmf6W3OV72EBVZ05PW-_XgCmtjeMVjPqckNVp0QMbtTfLOtkUNKakcC-kQOrWtPHdLPzKW-W2pSNG_jUAzklZumd49jFuSeOfQ&q=Playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjz6NfAv72TAxVCBNsEHRAPKekQs6gLegQIDxAB
+            - generic [ref=e92]: Short videos
+        - listitem [ref=e93]:
+          - link "Forums" [ref=e94] [cursor=pointer]:
+            - /url: /search?sca_esv=3eb9bc99a534cb7d&udm=18&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivbKirXDuh5UVpdpaw-YxGq0aFW8FJx7QFgKAu9Mp8JGui5wyswVm9VUGkWCgmf6W3OV72EBVZ05PW-_XgCmtjeMVjPqckNVp0QMbtTfLOtkUNKakcC-kQOrWtPHdLPzKW-W2pSNG_jUAzklZumd49jFuSeOfQ&q=Playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjz6NfAv72TAxVCBNsEHRAPKekQs6gLegQIEBAB
+            - generic [ref=e96]: Forums
+        - listitem [ref=e97]:
+          - link "Shopping" [ref=e98] [cursor=pointer]:
+            - /url: /search?sca_esv=3eb9bc99a534cb7d&udm=28&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpmAsnXCN5UBx17opt8eaTX5ijYCyJdSZFM4mewRGuivbKirXDuh5UVpdpaw-YxGq0aFW8FJx7QFgKAu9Mp8JGui5wyswVm9VUGkWCgmf6W3OV72EBVZ05PW-_XgCmtjeMVjPqckNVp0QMbtTfLOtkUNKakcC-kQOrWtPHdLPzKW-W2pSNG_jUAzklZumd49jFuSeOfQ&q=Playwright+by+Testers+Talk&ved=1t:220175&ictx=111
+            - generic [ref=e100]: Shopping
+        - listitem [ref=e101]:
+          - button "More filters" [ref=e102] [cursor=pointer]:
+            - generic "More filters" [ref=e103]:
+              - generic [ref=e104]:
+                - generic [ref=e105]: More
+                - img [ref=e107]
+    - heading "Search Results" [level=1] [ref=e109]
+    - generic:
+      - main
+```
