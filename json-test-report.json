@@ -67,21 +67,21 @@
     "shard": null,
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.58.2",
-    "workers": 1,
+    "workers": 8,
     "webServer": null
   },
   "suites": [
     {
-      "title": "Chapter6\\POST_API_Request_Dynamic.spec.ts",
-      "file": "Chapter6/POST_API_Request_Dynamic.spec.ts",
+      "title": "chapter2\\DatePicker_test.spec.ts",
+      "file": "chapter2/DatePicker_test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Create POST APi Request using Dynamic",
-          "ok": false,
+          "title": "DatePicker",
+          "ok": true,
           "tags": [],
           "tests": [
             {
@@ -94,47 +94,38 @@
                 {
                   "workerIndex": 0,
                   "parallelIndex": 0,
-                  "status": "failed",
-                  "duration": 1347,
-                  "error": {
-                    "message": "SyntaxError: Unexpected token 'I', \"Internal S\"... is not valid JSON",
-                    "stack": "SyntaxError: Unexpected token 'I', \"Internal S\"... is not valid JSON\n    at C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts:20:32",
-                    "location": {
-                      "file": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts",
-                      "column": 32,
-                      "line": 20
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m postApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`/booking`\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(postAPIRequest)})\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m     \u001b[36mconst\u001b[39m jsonapostApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m postApiResponse\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`Post Api Response : `\u001b[39m\u001b[33m+\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mstringify(jsonapostApiResponse\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[35m2\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 22 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
+                  "status": "passed",
+                  "duration": 2892,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "location": {
-                        "file": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts",
-                        "column": 32,
-                        "line": 20
-                      },
-                      "message": "SyntaxError: Unexpected token 'I', \"Internal S\"... is not valid JSON\n\n\u001b[0m \u001b[90m 18 |\u001b[39m     \u001b[36mconst\u001b[39m postApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`/booking`\u001b[39m\u001b[33m,\u001b[39m{data\u001b[33m:\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mparse(postAPIRequest)})\u001b[33m;\u001b[39m\n \u001b[90m 19 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m     \u001b[36mconst\u001b[39m jsonapostApiResponse\u001b[33m=\u001b[39m\u001b[36mawait\u001b[39m postApiResponse\u001b[33m.\u001b[39mjson()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 21 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m`Post Api Response : `\u001b[39m\u001b[33m+\u001b[39m\u001b[33mJSON\u001b[39m\u001b[33m.\u001b[39mstringify(jsonapostApiResponse\u001b[33m,\u001b[39m\u001b[36mnull\u001b[39m\u001b[33m,\u001b[39m\u001b[35m2\u001b[39m))\u001b[33m;\u001b[39m\n \u001b[90m 22 |\u001b[39m })\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts:20:32\u001b[22m"
+                      "text": "Run using github\n"
                     }
                   ],
-                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-03-29T07:38:56.275Z",
+                  "startTime": "2026-04-01T12:01:47.629Z",
                   "annotations": [],
-                  "attachments": [],
-                  "errorLocation": {
-                    "file": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\tests\\Chapter6\\POST_API_Request_Dynamic.spec.ts",
-                    "column": 32,
-                    "line": 20
-                  }
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\test-results\\chapter2-DatePicker_test-DatePicker-Google-Chrome\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\abhim\\Downloads\\Playwright Code\\Playwright Tutorial\\test-results\\chapter2-DatePicker_test-DatePicker-Google-Chrome\\trace.zip"
+                    }
+                  ]
                 }
               ],
-              "status": "unexpected"
+              "status": "expected"
             }
           ],
-          "id": "0f84a21c42815da9d3e7-76e5320596e468dd3764",
-          "file": "Chapter6/POST_API_Request_Dynamic.spec.ts",
-          "line": 10,
+          "id": "fe5e972554a163235f5a-4494445e22605e6bedea",
+          "file": "chapter2/DatePicker_test.spec.ts",
+          "line": 3,
           "column": 5
         }
       ]
@@ -142,11 +133,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-03-29T07:38:54.316Z",
-    "duration": 3363.8370000000577,
-    "expected": 0,
+    "startTime": "2026-04-01T12:01:46.671Z",
+    "duration": 4286.942,
+    "expected": 1,
     "skipped": 0,
-    "unexpected": 1,
+    "unexpected": 0,
     "flaky": 0
   }
 }
