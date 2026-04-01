@@ -10,7 +10,7 @@ await iframe.locator('[id=datepicker]').click();
 
 // await iframe.locator('[data-handler="prev"]').click();
 // await iframe.locator('text="12"').click();
-
+console.log("Run using github");
 await iframe.locator('[data-handler="next"]').click();
 await iframe.locator('text="12"').click();
 
