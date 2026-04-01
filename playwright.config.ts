@@ -40,7 +40,8 @@ export default defineConfig({
     video:'on',
     screenshot:'only-on-failure',
     testIdAttribute:'tab-title',
-   headless:false,
+   
+    headless: process.env.CI ? true : false,
    launchOptions:{
   //  args:['--start-maximized'],
     slowMo:200
