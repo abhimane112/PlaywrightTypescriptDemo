@@ -1,9 +1,10 @@
-name: Playwright Tests - Auto Trigger
+name: Playwright Tests - Manual Trigger
 on:
-  #   push:
-  #     branches: [main, master]
-  pull_request:
-    branches: [main, master]
+  # push:
+  #   branches: [main, master]
+  # pull_request:
+  #   branches: [main, master]
+  workflow_dispatch: # This enables manual triggering
 
 jobs:
   test:
